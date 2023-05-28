@@ -9,10 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private lazy var someView: UIView = {
-        let view = UIView()
+    private lazy var button: UIButton = {
+        let button = UIButton()
         
-        return view
+        return button
     }()
     
     override func viewDidLoad() {
@@ -20,3 +20,4 @@ class ViewController: UIViewController {
     }
 }
 
+ 
