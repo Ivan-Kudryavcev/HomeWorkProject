@@ -56,15 +56,31 @@
 		15529B7B2A234EBB00AE77E8 /* HomeWorkProject */ = {
 			isa = PBXGroup;
 			children = (
-				15529B7C2A234EBB00AE77E8 /* AppDelegate.swift */,
-				15529B7E2A234EBB00AE77E8 /* SceneDelegate.swift */,
+				15529B912A2357A900AE77E8 /* App */,
 				15529B802A234EBB00AE77E8 /* ViewController.swift */,
+				15529B902A23575A00AE77E8 /* Source */,
+			);
+			path = HomeWorkProject;
+			sourceTree = "<group>";
+		};
+		15529B902A23575A00AE77E8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
 				15529B822A234EBB00AE77E8 /* Main.storyboard */,
 				15529B852A234EBC00AE77E8 /* Assets.xcassets */,
 				15529B872A234EBC00AE77E8 /* LaunchScreen.storyboard */,
 				15529B8A2A234EBC00AE77E8 /* Info.plist */,
 			);
-			path = HomeWorkProject;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		15529B912A2357A900AE77E8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				15529B7C2A234EBB00AE77E8 /* AppDelegate.swift */,
+				15529B7E2A234EBB00AE77E8 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
