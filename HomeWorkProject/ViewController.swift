@@ -8,7 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        changheBggColor()
+    }
 
+    func changheBggColor() {
+        view.backgroundColor = .red
+    }
+    
     private lazy var button: UIButton = {
         let button = UIButton()
         
